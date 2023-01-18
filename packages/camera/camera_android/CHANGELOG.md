@@ -1,3 +1,7 @@
+## 0.10.3
+
+* Adds logic to remove buffer padding in YUV frames on some devices / resolutions.
+
 ## 0.10.2+2
 
 * Fixes zoom computation for virtual cameras hiding physical cameras in Android 11+.
