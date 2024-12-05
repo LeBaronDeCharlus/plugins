@@ -1,0 +1,11 @@
+  apiVersion: backstage.io/v1alpha1
+  kind: Component
+  metadata:
+    name: flutter-plugins-fork
+    description: Github repository for flutter-plugins-fork
+    annotations:
+      google.com/cloudbuild-project-slug: ao-docs-tools
+      github.com/project-slug: AODocs-Dev/flutter-plugins-fork
+      sonarqube.org/project-key: AODocs-Dev_flutter-plugins-fork
+  spec:
+    type: service
